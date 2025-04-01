@@ -9,5 +9,5 @@ export default defineConfig({
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/', // or './' for relative paths
+  base: './', // Forces Vite to use relative paths for assets
 });
